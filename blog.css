@@ -4,6 +4,8 @@
     list-style: none;
     margin: border-box;
     box-sizing: border-box;
+    background: rgb(6,1,94);
+background: linear-gradient(90deg, rgba(6,1,94,1) 0%, rgba(172,8,52,0.9439425428374475) 36%, rgba(28,0,208,1) 100%);
 }
 
 .nav_bar{
