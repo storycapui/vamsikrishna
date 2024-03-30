@@ -4,14 +4,14 @@
     list-style: none;
     margin: border-box;
     box-sizing: border-box;
-    background: rgb(6,1,94);
-background: linear-gradient(90deg, rgba(6,1,94,1) 0%, rgba(172,8,52,0.9439425428374475) 36%, rgba(28,0,208,1) 100%);
 }
 
 .nav_bar{
     width:100%;
     height:100px; /* px , vh, rem, em, %*/
     border-radius: 5px;
+    border:1px solid black;
+    background-color: #F9DEC9;
 }
 .nav_bar .Navbar{
     width:95%;
@@ -124,8 +124,9 @@ background: linear-gradient(90deg, rgba(6,1,94,1) 0%, rgba(172,8,52,0.9439425428
     display: flex;
     justify-content: center;
     align-items: center;
-   border: 5px solid #0C4767;
+   
    border-radius:10px;
+   background-color: #685044;
 }
 .navigation{
     width:80%;
@@ -135,7 +136,7 @@ background: linear-gradient(90deg, rgba(6,1,94,1) 0%, rgba(172,8,52,0.9439425428
     align-items: center;
 }
 .addi_nav_links h2{
-   color:rgb(22, 22, 107)
+   color:rgb(255, 255, 255)
 }
 
 
