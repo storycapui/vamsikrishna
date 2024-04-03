@@ -269,9 +269,8 @@
     width:250px;
     height: 60px;
     margin-left:100px;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
+    display:grid;
+    grid-template-columns: column;
   }
   .social_media .social_media_icons{
     width: 50px;
