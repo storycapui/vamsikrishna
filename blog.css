@@ -258,7 +258,12 @@
     background-color:rgb(22, 22, 107) ;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
+  }
+  .footer_section .blog_form{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
   }
 
   .footer_section .blog_form ::-webkit-input-placeholder{
@@ -269,8 +274,9 @@
     width:250px;
     height: 60px;
     margin-left:100px;
-    display:grid;
-    grid-template-columns: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   .social_media .social_media_icons{
     width: 50px;
@@ -278,5 +284,11 @@
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
+  }
+  .footer_section .address_section{
+    width:80%;
+    margin:auto;
+    display: flex;
+    align-items: center;
   }
   
